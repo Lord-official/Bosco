@@ -1,0 +1,59 @@
+{
+  "name": "Bosco",
+  "version": "1.0.0",
+  "description": "Gak Ada",
+  "main": "Bosco.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Denis",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.2",
+    "@vitalets/google-translate-api": "^7.0.0",
+    "axios": "^0.21.1",
+    "cfonts": "^2.9.0",
+    "chalk": "^4.1.1",
+    "figlet": "^1.5.0",
+    "file-type": "^16.5.2",
+    "base64-img": "^1.0.4",
+    "base64-to-image": "^1.0.2",
+    "brainly-scraper": "^1.0.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "emoji-api": "^1.0.2",
+    "form-data": "^4.0.0",
+    "fs-extra": "^10.0.0",
+    "fake-useragent": "^1.0.1",
+    "g-i-s": "^2.1.6",
+    "google-it": "^1.6.2",
+    "multistream": "^4.1.0",
+    "hxz-api": "^1.0.1",
+    "jsdom": "^16.6.0",
+    "moment-timezone": "^0.5.33",
+    "ms": "^2.1.3",
+    "marker": "^0.1.2",
+    "node-fetch": "^2.6.1",
+    "mathjs": "^9.4.3",
+    "os": "^0.1.2",
+    "parse-ms": "^2.1.0",
+    "qrcode": "^1.4.4",
+    "request": "^2.88.2",
+    "spinnies": "^0.5.1",
+    "twitter-url-direct": "^1.0.1",
+    "tiktok-scraper-without-watermark": "^1.0.6",
+    "util": "^0.12.4",
+    "yt-search": "^2.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nino-chan02/NinoWangy"
+  },
+  "bugs": {
+    "url": "https://github.com/Nino-chan02/NinoWangy/issues"
+  },
+  "homepage": "https://github.com/Nino-chan02/NinoWangy#readme",
+  "license": "ISC"
+}
