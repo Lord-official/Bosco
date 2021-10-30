@@ -1,11 +1,11 @@
 <div align="center">
-<img src="https://i.imgur.com/QZTvN7f.jpeg" alt="Bosco" width="500" />
+<img src="https://i.imgur.com/nD4ub6l.jpeg" alt="Bosco" width="500" />
 
 # BoscoBot
 
 BoscoBot is a whatsapp web bot that can be hosted by termux
 
-<h3 align="center">𝙈𝙖𝙙𝙚 𝘽𝙮 𝘿𝙚𝙣𝙞𝙨 𝙎𝙚𝙧</h3>
+<h3 align="center">𝙈𝙖𝙙𝙚 𝘽𝙮 𝙇𝙤𝙧𝙙 𝙎𝙚𝙧</h3>
 
 ## Creator
 
