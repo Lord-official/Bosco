@@ -283,7 +283,7 @@ module.exports = bosco = async (bosco, mek) => {
             return Math.floor(Math.random() * angka) + 1
         }
         const reply = (teks) => {
-	      bosco.sendMessage(from, teks, text, { thumbnail: denis, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: false, "externalAdReply": { "title": `${' '}Sᴜʙsᴄʀɪʙᴇ Yᴛ :  $𝙾𝙼𝙶 𝙻𝙾𝚁𝙳 𝙵𝙵{''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}},})
+	      bosco.sendMessage(from, teks, text, { thumbnail: denis, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: false, "externalAdReply": { "title": `${' '}Sᴜʙsᴄʀɪʙᴇ Yᴛ : DS MODS${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}},})
         }
         const sendMess = (hehe, teks) => {
            bosco.sendMessage(hehe, teks, text)
@@ -368,7 +368,7 @@ module.exports = bosco = async (bosco, mek) => {
 			               "groupJid": "6288213840883-1616169743@g.us",
 			               "inviteCode": "mememteeeekkeke",
 			               "groupName": ".bot", 
-                           "caption": `𝑪𝑴𝑫 𝑬𝑿𝑪𝑳𝑼𝑫𝑬𝑫 : \n 𝑵𝑬𝑾 𝑭𝑬𝑼𝑻𝑬𝑹𝑺 𝑨𝑫𝑫𝑬𝑫 \n 𝑴𝑨𝑫𝑬 𝑩𝒀 𝑳𝑶𝑹𝑫`, 
+                           "caption": `𝑪𝑴𝑫 𝑬𝑿𝑪𝑳𝑼𝑫𝑬𝑫 : \n 𝑵𝑬𝑾 𝑭𝑬𝑼𝑻𝑬𝑹𝑺 𝑨𝑫𝑫𝑬𝑫 \n 𝑴𝑨𝑫𝑬 𝑩𝒀 𝑫𝑬𝑵𝑰𝑺`, 
                            'jpegThumbnail': fs.readFileSync(`ds.jpg`)
 		                }
 	               }
@@ -497,7 +497,7 @@ const ftrol = {
                             surface : 1,
                             message: `🌹 ${fake} 🌹`, //Kasih namalu
                             orderTitle: ``,
-                            thumbnail: lord, //Gambarnye
+                            thumbnail: denis, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
                         }
@@ -619,7 +619,7 @@ const ftrol = {
            if(mime.split("/")[0] === "audio"){
            mime = Mimetype.mp4Audio
 }
-           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}Sᴜʙsᴄʀɪʙᴇ Yᴛ : 𝙾𝙼𝙶 𝙻𝙾𝚁𝙳 𝙵𝙵${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": LORD, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
+           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}Sᴜʙsᴄʀɪʙᴇ Yᴛ : DS MODS${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
                      
            fs.unlinkSync(filename)
 });
@@ -913,7 +913,7 @@ const ftrol = {
             switch(command){
            
             case 'owner':
-            ini_ownerNumber = [`${setting.owner}@s.whatsapp.net`,`919778383987@s.whatsapp.net`,`919778383987@s.whatsapp.net`,`${setting.owner}@s.whatsapp.net`,`${setting.owner}@s.whatsapp.net`]
+            ini_ownerNumber = [`${setting.owner}@s.whatsapp.net`,`6590097176@s.whatsapp.net`,`917560981781@s.whatsapp.net`,`${setting.owner}@s.whatsapp.net`,`${setting.owner}@s.whatsapp.net`]
             let ini_list = []
 		    for (let i of ini_ownerNumber) {
 			const vname_ = bosco.contacts[i] != undefined ? bosco.contacts[i].vname || bosco.contacts[i].notify : undefined
@@ -939,12 +939,12 @@ const ftrol = {
         timestampe = speed();
         latensie = speed() - timestampe
  hehe = `
- 🍭Hɪ Bʀᴏ @${sender.split("@")[0]}
- 🍭Pʀɪᴠᴀᴛᴇ : ${privat.length}
- 🍭Gʀᴏᴜᴘs : ${groups.length}
- 🍭Tᴏᴛᴀʟ :  ${totalChat.length}
- 🍭Sᴘᴇᴇᴅ :  ${latensie.toFixed(4)}
- 🍭Bᴀᴛᴛᴇʀʏ : ${baterai}%\n
+ 🌹Hɪ Bʀᴏ @${sender.split("@")[0]}
+ 🌹Pʀɪᴠᴀᴛᴇ : ${privat.length}
+ 🌹Gʀᴏᴜᴘs : ${groups.length}
+ 🌹Tᴏᴛᴀʟ : ${totalChat.length}
+ 🌹Sᴘᴇᴇᴅ : ${latensie.toFixed(4)}
+ 🌹Bᴀᴛᴛᴇʀʏ : ${baterai}%\n
  ${jmn} -  ${jmo}\n${week} - ${calender}
  `
  menubutton = [{buttonId:`${prefix}menu2`,buttonText:{displayText:'MENU'},type:1},
@@ -963,235 +963,235 @@ const ftrol = {
     break
     case 'ownermenu':
     owner1 =`
-🔮 𝑶 𝑾 𝑵 𝑬 𝑹 - 𝑴 𝑬 𝑵 𝑼 🔮 
+🥀 𝑶 𝑾 𝑵 𝑬 𝑹 - 𝑴 𝑬 𝑵 𝑼 🥀 
 
 
-🍭 ${prefix}clearall
+🌹 ${prefix}clearall
 
-🍭 ${prefix}tobc
+🌹 ${prefix}tobc
 
-🍭 ${prefix}bc
+🌹 ${prefix}bc
 
-🍭 ${prefix}getquoted
+🌹 ${prefix}getquoted
 
-🍭 ${prefix}restart
+🌹 ${prefix}restart
 
-🍭 ${prefix}term
+🌹 ${prefix}term
 
-🍭 ${prefix}block
+🌹 ${prefix}block
 
-🍭 ${prefix}unblock
+🌹 ${prefix}unblock
 
-🍭 ${prefix}leaveall
+🌹 ${prefix}leaveall
 
-🍭 ${prefix}addcmd
+🌹 ${prefix}addcmd
 
-🍭 ${prefix}delcmd
+🌹 ${prefix}delcmd
 
-🍭 ${prefix}jadibot
+🌹 ${prefix}jadibot
 
-🍭 ${prefix}listjadibot
+🌹 ${prefix}listjadibot
 
-🍭 ${prefix}stopjadibot
+🌹 ${prefix}stopjadibot
 
-🍭 ${prefix}exif
+🌹 ${prefix}exif
 
-🍭 ${prefix}join
+🌹 ${prefix}join
 
-🍭 ${prefix}return
+🌹 ${prefix}return
 
-🍭 ${prefix}public
+🌹 ${prefix}public
 
-🍭 ${prefix}self
+🌹 ${prefix}self
 
-🍭 ${prefix}readall
+🌹 ${prefix}readall
 `
 catlo(owner1)
    break
    case 'groupmenu':
       group1 = `
-🔮 𝑮 𝑹 𝑶 𝑼 𝑷 - 𝑴 𝑬 𝑵 𝑼 🔮 
+🥀 𝑮 𝑹 𝑶 𝑼 𝑷 - 𝑴 𝑬 𝑵 𝑼 🥀 
  
 
-🍭 ${prefix}add
+🌹 ${prefix}add
 
-🍭 ${prefix}kick
+🌹 ${prefix}kick
 
-🍭 ${prefix}promote
+🌹 ${prefix}promote
 
-🍭 ${prefix}demote
+🌹 ${prefix}demote
 
-🍭 ${prefix}disappear
+🌹 ${prefix}disappear
 
-🍭 ${prefix}group
+🌹 ${prefix}group
 
-🍭 ${prefix}antilink
+🌹 ${prefix}antilink
 
-🍭 ${prefix}totag
+🌹 ${prefix}totag
 
-🍭 ${prefix}hidetag
+🌹 ${prefix}hidetag
 
-🍭 ${prefix}translate
+🌹 ${prefix}translate
 
-🍭 ${prefix}getdeskgc
+🌹 ${prefix}getdeskgc
 
-🍭 ${prefix}getbio
+🌹 ${prefix}getbio
 
-🍭 ${prefix}getpp
+🌹 ${prefix}getpp
 
-🍭 ${prefix}getname
+🌹 ${prefix}getname
 `
 catlo(group1)
     break
     case 'editmenu':
      edit1 = `
-🔮 𝑬 𝑫 𝑰 𝑻 - 𝑴 𝑬 𝑵 𝑼 🔮 
+🥀 𝑬 𝑫 𝑰 𝑻 - 𝑴 𝑬 𝑵 𝑼 🥀 
 
 
-🍭 ${prefix}secvn
+🌹 ${prefix}secvn
 
-🍭 ${prefix}secvideo
+🌹 ${prefix}secvideo
 
-🍭 ${prefix}tomp3
+🌹 ${prefix}tomp3
 
-🍭 ${prefix}tomp4
+🌹 ${prefix}tomp4
 
-🍭 ${prefix}toimg
+🌹 ${prefix}toimg
 
-🍭 ${prefix}baby
+🌹 ${prefix}baby
 
-🍭 ${prefix}bass
+🌹 ${prefix}bass
 
-🍭 ${prefix}reverse
+🌹 ${prefix}reverse
 
-🍭 ${prefix}slow
+🌹 ${prefix}slow
 
-🍭 ${prefix}squirrel
+🌹 ${prefix}squirrel
 
-🍭 ${prefix}blub
+🌹 ${prefix}blub
 
-🍭 ${prefix}fat
+🌹 ${prefix}fat
 
-🍭 ${prefix}imagetourl
+🌹 ${prefix}imagetourl
 
-🍭 ${prefix}voice
+🌹 ${prefix}voice
 
-🍭 ${prefix}nightcore
+🌹 ${prefix}nightcore
 
-🍭 ${prefix}cm
+🌹 ${prefix}cm
 
-🍭 ${prefix}fast
+🌹 ${prefix}fast
 
-🍭 ${prefix}gemes
+🌹 ${prefix}gemes
 
-🍭 ${prefix}slowvid
+🌹 ${prefix}slowvid
 
-🍭 ${prefix}fastvid
+🌹 ${prefix}fastvid
  
-🍭 ${prefix}reversevid
+🌹 ${prefix}reversevid
 
-🍭 ${prefix}tts
+🌹 ${prefix}tts
 `
 catlo(edit1)
       break
       case 'storagemenu':
         storage1 = `
-🔮 𝑺 𝑻 𝑶 𝑹 𝑨 𝑮 𝑬 - 𝑴 𝑬 𝑵 𝑼 🔮 
+🥀 𝑺 𝑻 𝑶 𝑹 𝑨 𝑮 𝑬 - 𝑴 𝑬 𝑵 𝑼 🥀 
 
 
-🍭 ${prefix}addvn
+🌹 ${prefix}addvn
 
-🍭 ${prefix}addvideo
+🌹 ${prefix}addvideo
 
-🍭 ${prefix}addimage
+🌹 ${prefix}addimage
 
-🍭 ${prefix}addsticker
+🌹 ${prefix}addsticker
 
-🍭 ${prefix}listvn
+🌹 ${prefix}listvn
 
-🍭 ${prefix}listvideo
+🌹 ${prefix}listvideo
 
-🍭 ${prefix}listimage
+🌹 ${prefix}listimage
 
-🍭 ${prefix}liststicker
+🌹 ${prefix}liststicker
 
-🍭 ${prefix}delvn
+🌹 ${prefix}delvn
 
-🍭 ${prefix}delvideo
+🌹 ${prefix}delvideo
 
-🍭 ${prefix}delimage
+🌹 ${prefix}delimage
 
-🍭 ${prefix}delsticker
+🌹 ${prefix}delsticker
 
 `
 catlo(storage1)
       break
       case 'extramenu':
       extra1 = `
-🔮 𝑬 𝑿 𝑻 𝑹 𝑨 - 𝑴 𝑬 𝑵 𝑼 🔮 
+🥀 𝑬 𝑿 𝑻 𝑹 𝑨 - 𝑴 𝑬 𝑵 𝑼 🥀 
 
 
-🍭 ${prefix}chat
+🌹 ${prefix}chat
 
-🍭 ${prefix}fitnahpc
+🌹 ${prefix}fitnahpc
 
-🍭 ${prefix}contact
+🌹 ${prefix}contact
 
-🍭 ${prefix}forward
+🌹 ${prefix}forward
 
-🍭 ${prefix}forwardvideo
+🌹 ${prefix}forwardvideo
 
-🍭 ${prefix}forwardaudio
+🌹 ${prefix}forwardaudio
 `
  catlo(extra1)
      break
      case 'downloadmenu':
      download1 = `
-🔮 𝑫 𝑶 𝑾 𝑵 𝑳 𝑶 𝑨 𝑫 - 𝑴 𝑬 𝑵 𝑼 🔮 
+🥀 𝑫 𝑶 𝑾 𝑵 𝑳 𝑶 𝑨 𝑫 - 𝑴 𝑬 𝑵 𝑼 🥀 
 
-🍭 ${prefix}play
+🌹 ${prefix}play
 
-🍭 ${prefix}ytmp3
+🌹 ${prefix}ytmp3
 
-🍭 ${prefix}ytmp4
+🌹 ${prefix}ytmp4
 
-🍭 ${prefix}igdl
+🌹 ${prefix}igdl
 
-🍭 ${prefix}ytsearch
+🌹 ${prefix}ytsearch
 
-🍭 ${prefix}igstory
+🌹 ${prefix}igstory
 
-🍭 ${prefix}scplay
+🌹 ${prefix}scplay
 
-🍭 ${prefix}pinterest
+🌹 ${prefix}pinterest
 
-🍭 ${prefix}telesticker
+🌹 ${prefix}telesticker
 
-🍭 ${prefix}githubsearch
+🌹 ${prefix}githubsearch
 
-🍭 ${prefix}googleimage
+🌹 ${prefix}googleimage
 
-🍭 ${prefix}ytdesk
+🌹 ${prefix}ytdesk
 
-🍭 ${prefix}lyric
+🌹 ${prefix}lyric
 
-🍭 ${prefix}playstore
+🌹 ${prefix}playstore
 
-🍭 ${prefix}mediafire
+🌹 ${prefix}mediafire
 
-🍭 ${prefix}fb
+🌹 ${prefix}fb
 
-🍭 ${prefix}tiktoknown
+🌹 ${prefix}tiktoknown
 
-🍭 ${prefix}tiktokaudio
+🌹 ${prefix}tiktokaudio
 
-🍭 ${prefix}tiktokdl
+🌹 ${prefix}tiktokdl
 
-🍭 ${prefix}twitter
+🌹 ${prefix}twitter
 
-🍭 ${prefix}tinyurl
+🌹 ${prefix}tinyurl
 
-🍭 ${prefix}google
+🌹 ${prefix}google
 ` 
 catlo(download1)
     break
@@ -1215,7 +1215,7 @@ wa.me/${owner}`
             bosco.relayWAMessage(osk)
        break
    case 'credits':
-   function _0x4bbd(){var _0x5b8edb=['2095830VjJJiF','\x0a\x0a\x20🌹\x20:\x20wa.me/','\x0a\x0a\x20','5267880lROrnj','CATALOG','33609wAGVBo','919778383987','prepareMessageFromContent','relayWAMessage','4972079yWqsym','126495MscqCV','472Lglbxe','\x0a\x0a\x20\x20\x20[\x20𝐵𝑜𝑠𝑐𝑜\x20𝐶𝑟𝑒𝑑𝑖𝑡𝑠\x20𝐵𝑦\x20]\x20:\x0a\x0a\x20\x20\x20\x0a\x0a\x20🌹\x20:\x20wa.me/','919778383987','1506VxXXmd','split','919778383987','6575168hvwamC','32935KmKOyd'];_0x4bbd=function(){return _0x5b8edb;};return _0x4bbd();}function _0x465a(_0x1299f0,_0x564e19){var _0x4bbd7c=_0x4bbd();return _0x465a=function(_0x465a2c,_0x203c87){_0x465a2c=_0x465a2c-0x1d6;var _0x346af7=_0x4bbd7c[_0x465a2c];return _0x346af7;},_0x465a(_0x1299f0,_0x564e19);}var _0x596dfa=_0x465a;(function(_0x559d9d,_0x273832){var _0x530608=_0x465a,_0x15be3d=_0x559d9d();while(!![]){try{var _0x581c1b=parseInt(_0x530608(0x1d9))/0x1+-parseInt(_0x530608(0x1e2))/0x2+parseInt(_0x530608(0x1e7))/0x3*(parseInt(_0x530608(0x1da))/0x4)+-parseInt(_0x530608(0x1e1))/0x5*(parseInt(_0x530608(0x1dd))/0x6)+parseInt(_0x530608(0x1d8))/0x7+parseInt(_0x530608(0x1e0))/0x8+parseInt(_0x530608(0x1e5))/0x9;if(_0x581c1b===_0x273832)break;else _0x15be3d['push'](_0x15be3d['shift']());}catch(_0x5572dc){_0x15be3d['push'](_0x15be3d['shift']());}}}(_0x4bbd,0xd31c6),dtod=_0x596dfa(0x1df),dtod1='6590097176',dtod2=_0x596dfa(0x1dc),dtod3=_0x596dfa(0x1e8),dtod4='0');var v=_0x596dfa(0x1db)+dtod1[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod2['split']('@')[0x0]+'\x0a\x0a\x20🌹\x20:\x20wa.me/'+dtod3[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod4[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e4);credit=bosco[_0x596dfa(0x1d6)](from,{'orderMessage':{'itemCount':0x3e8,'message':''+v,'footerText':'','thumbnail':denis,'surface':_0x596dfa(0x1e6)}},{'quoted':mek}),bosco[_0x596dfa(0x1d7)](credit);
+   function _0x4bbd(){var _0x5b8edb=['2095830VjJJiF','\x0a\x0a\x20🌹\x20:\x20wa.me/','\x0a\x0a\x20','5267880lROrnj','CATALOG','33609wAGVBo','919946470485','prepareMessageFromContent','relayWAMessage','4972079yWqsym','126495MscqCV','472Lglbxe','\x0a\x0a\x20\x20\x20[\x20𝐵𝑜𝑠𝑐𝑜\x20𝐶𝑟𝑒𝑑𝑖𝑡𝑠\x20𝐵𝑦\x20]\x20:\x0a\x0a\x20\x20\x20\x0a\x0a\x20🌹\x20:\x20wa.me/','918590299146','1506VxXXmd','split','917560981781','6575168hvwamC','32935KmKOyd'];_0x4bbd=function(){return _0x5b8edb;};return _0x4bbd();}function _0x465a(_0x1299f0,_0x564e19){var _0x4bbd7c=_0x4bbd();return _0x465a=function(_0x465a2c,_0x203c87){_0x465a2c=_0x465a2c-0x1d6;var _0x346af7=_0x4bbd7c[_0x465a2c];return _0x346af7;},_0x465a(_0x1299f0,_0x564e19);}var _0x596dfa=_0x465a;(function(_0x559d9d,_0x273832){var _0x530608=_0x465a,_0x15be3d=_0x559d9d();while(!![]){try{var _0x581c1b=parseInt(_0x530608(0x1d9))/0x1+-parseInt(_0x530608(0x1e2))/0x2+parseInt(_0x530608(0x1e7))/0x3*(parseInt(_0x530608(0x1da))/0x4)+-parseInt(_0x530608(0x1e1))/0x5*(parseInt(_0x530608(0x1dd))/0x6)+parseInt(_0x530608(0x1d8))/0x7+parseInt(_0x530608(0x1e0))/0x8+parseInt(_0x530608(0x1e5))/0x9;if(_0x581c1b===_0x273832)break;else _0x15be3d['push'](_0x15be3d['shift']());}catch(_0x5572dc){_0x15be3d['push'](_0x15be3d['shift']());}}}(_0x4bbd,0xd31c6),dtod=_0x596dfa(0x1df),dtod1='6590097176',dtod2=_0x596dfa(0x1dc),dtod3=_0x596dfa(0x1e8),dtod4='0');var v=_0x596dfa(0x1db)+dtod1[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod2['split']('@')[0x0]+'\x0a\x0a\x20🌹\x20:\x20wa.me/'+dtod3[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod4[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e4);credit=bosco[_0x596dfa(0x1d6)](from,{'orderMessage':{'itemCount':0x3e8,'message':''+v,'footerText':'hehe','thumbnail':denis,'surface':_0x596dfa(0x1e6)}},{'quoted':mek}),bosco[_0x596dfa(0x1d7)](credit);
         break
 //------------------< Sticker Cmd >-------------------
 
