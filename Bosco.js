@@ -942,8 +942,8 @@ const ftrol = {
  🍭Hɪ Bʀᴏ @${sender.split("@")[0]}
  🍭Pʀɪᴠᴀᴛᴇ : ${privat.length}
  🍭Gʀᴏᴜᴘs : ${groups.length}
- 🍭Tᴏᴛᴀʟ : ${totalChat.length}
- 🍭Sᴘᴇᴇᴅ : ${latensie.toFixed(4)}
+ 🍭Tᴏᴛᴀʟ :  ${totalChat.length}
+ 🍭Sᴘᴇᴇᴅ :  ${latensie.toFixed(4)}
  🍭Bᴀᴛᴛᴇʀʏ : ${baterai}%\n
  ${jmn} -  ${jmo}\n${week} - ${calender}
  `
@@ -963,7 +963,7 @@ const ftrol = {
     break
     case 'ownermenu':
     owner1 =`
-🥀 𝑶 𝑾 𝑵 𝑬 𝑹 - 𝑴 𝑬 𝑵 𝑼 🥀 
+🔮 𝑶 𝑾 𝑵 𝑬 𝑹 - 𝑴 𝑬 𝑵 𝑼 🔮 
 
 
 🍭 ${prefix}clearall
@@ -1010,188 +1010,188 @@ catlo(owner1)
    break
    case 'groupmenu':
       group1 = `
-🥀 𝑮 𝑹 𝑶 𝑼 𝑷 - 𝑴 𝑬 𝑵 𝑼 🥀 
+🔮 𝑮 𝑹 𝑶 𝑼 𝑷 - 𝑴 𝑬 𝑵 𝑼 🔮 
  
 
-🌹 ${prefix}add
+🍭 ${prefix}add
 
-🌹 ${prefix}kick
+🍭 ${prefix}kick
 
-🌹 ${prefix}promote
+🍭 ${prefix}promote
 
-🌹 ${prefix}demote
+🍭 ${prefix}demote
 
-🌹 ${prefix}disappear
+🍭 ${prefix}disappear
 
-🌹 ${prefix}group
+🍭 ${prefix}group
 
-🌹 ${prefix}antilink
+🍭 ${prefix}antilink
 
-🌹 ${prefix}totag
+🍭 ${prefix}totag
 
-🌹 ${prefix}hidetag
+🍭 ${prefix}hidetag
 
-🌹 ${prefix}translate
+🍭 ${prefix}translate
 
-🌹 ${prefix}getdeskgc
+🍭 ${prefix}getdeskgc
 
-🌹 ${prefix}getbio
+🍭 ${prefix}getbio
 
-🌹 ${prefix}getpp
+🍭 ${prefix}getpp
 
-🌹 ${prefix}getname
+🍭 ${prefix}getname
 `
 catlo(group1)
     break
     case 'editmenu':
      edit1 = `
-🥀 𝑬 𝑫 𝑰 𝑻 - 𝑴 𝑬 𝑵 𝑼 🥀 
+🔮 𝑬 𝑫 𝑰 𝑻 - 𝑴 𝑬 𝑵 𝑼 🔮 
 
 
-🌹 ${prefix}secvn
+🍭 ${prefix}secvn
 
-🌹 ${prefix}secvideo
+🍭 ${prefix}secvideo
 
-🌹 ${prefix}tomp3
+🍭 ${prefix}tomp3
 
-🌹 ${prefix}tomp4
+🍭 ${prefix}tomp4
 
-🌹 ${prefix}toimg
+🍭 ${prefix}toimg
 
-🌹 ${prefix}baby
+🍭 ${prefix}baby
 
-🌹 ${prefix}bass
+🍭 ${prefix}bass
 
-🌹 ${prefix}reverse
+🍭 ${prefix}reverse
 
-🌹 ${prefix}slow
+🍭 ${prefix}slow
 
-🌹 ${prefix}squirrel
+🍭 ${prefix}squirrel
 
-🌹 ${prefix}blub
+🍭 ${prefix}blub
 
-🌹 ${prefix}fat
+🍭 ${prefix}fat
 
-🌹 ${prefix}imagetourl
+🍭 ${prefix}imagetourl
 
-🌹 ${prefix}voice
+🍭 ${prefix}voice
 
-🌹 ${prefix}nightcore
+🍭 ${prefix}nightcore
 
-🌹 ${prefix}cm
+🍭 ${prefix}cm
 
-🌹 ${prefix}fast
+🍭 ${prefix}fast
 
-🌹 ${prefix}gemes
+🍭 ${prefix}gemes
 
-🌹 ${prefix}slowvid
+🍭 ${prefix}slowvid
 
-🌹 ${prefix}fastvid
+🍭 ${prefix}fastvid
  
-🌹 ${prefix}reversevid
+🍭 ${prefix}reversevid
 
-🌹 ${prefix}tts
+🍭 ${prefix}tts
 `
 catlo(edit1)
       break
       case 'storagemenu':
         storage1 = `
-🥀 𝑺 𝑻 𝑶 𝑹 𝑨 𝑮 𝑬 - 𝑴 𝑬 𝑵 𝑼 🥀 
+🔮 𝑺 𝑻 𝑶 𝑹 𝑨 𝑮 𝑬 - 𝑴 𝑬 𝑵 𝑼 🔮 
 
 
-🌹 ${prefix}addvn
+🍭 ${prefix}addvn
 
-🌹 ${prefix}addvideo
+🍭 ${prefix}addvideo
 
-🌹 ${prefix}addimage
+🍭 ${prefix}addimage
 
-🌹 ${prefix}addsticker
+🍭 ${prefix}addsticker
 
-🌹 ${prefix}listvn
+🍭 ${prefix}listvn
 
-🌹 ${prefix}listvideo
+🍭 ${prefix}listvideo
 
-🌹 ${prefix}listimage
+🍭 ${prefix}listimage
 
-🌹 ${prefix}liststicker
+🍭 ${prefix}liststicker
 
-🌹 ${prefix}delvn
+🍭 ${prefix}delvn
 
-🌹 ${prefix}delvideo
+🍭 ${prefix}delvideo
 
-🌹 ${prefix}delimage
+🍭 ${prefix}delimage
 
-🌹 ${prefix}delsticker
+🍭 ${prefix}delsticker
 
 `
 catlo(storage1)
       break
       case 'extramenu':
       extra1 = `
-🥀 𝑬 𝑿 𝑻 𝑹 𝑨 - 𝑴 𝑬 𝑵 𝑼 🥀 
+🔮 𝑬 𝑿 𝑻 𝑹 𝑨 - 𝑴 𝑬 𝑵 𝑼 🔮 
 
 
-🌹 ${prefix}chat
+🍭 ${prefix}chat
 
-🌹 ${prefix}fitnahpc
+🍭 ${prefix}fitnahpc
 
-🌹 ${prefix}contact
+🍭 ${prefix}contact
 
-🌹 ${prefix}forward
+🍭 ${prefix}forward
 
-🌹 ${prefix}forwardvideo
+🍭 ${prefix}forwardvideo
 
-🌹 ${prefix}forwardaudio
+🍭 ${prefix}forwardaudio
 `
  catlo(extra1)
      break
      case 'downloadmenu':
      download1 = `
-🥀 𝑫 𝑶 𝑾 𝑵 𝑳 𝑶 𝑨 𝑫 - 𝑴 𝑬 𝑵 𝑼 🥀 
+🔮 𝑫 𝑶 𝑾 𝑵 𝑳 𝑶 𝑨 𝑫 - 𝑴 𝑬 𝑵 𝑼 🔮 
 
-🌹 ${prefix}play
+🍭 ${prefix}play
 
-🌹 ${prefix}ytmp3
+🍭 ${prefix}ytmp3
 
-🌹 ${prefix}ytmp4
+🍭 ${prefix}ytmp4
 
-🌹 ${prefix}igdl
+🍭 ${prefix}igdl
 
-🌹 ${prefix}ytsearch
+🍭 ${prefix}ytsearch
 
-🌹 ${prefix}igstory
+🍭 ${prefix}igstory
 
-🌹 ${prefix}scplay
+🍭 ${prefix}scplay
 
-🌹 ${prefix}pinterest
+🍭 ${prefix}pinterest
 
-🌹 ${prefix}telesticker
+🍭 ${prefix}telesticker
 
-🌹 ${prefix}githubsearch
+🍭 ${prefix}githubsearch
 
-🌹 ${prefix}googleimage
+🍭 ${prefix}googleimage
 
-🌹 ${prefix}ytdesk
+🍭 ${prefix}ytdesk
 
-🌹 ${prefix}lyric
+🍭 ${prefix}lyric
 
-🌹 ${prefix}playstore
+🍭 ${prefix}playstore
 
-🌹 ${prefix}mediafire
+🍭 ${prefix}mediafire
 
-🌹 ${prefix}fb
+🍭 ${prefix}fb
 
-🌹 ${prefix}tiktoknown
+🍭 ${prefix}tiktoknown
 
-🌹 ${prefix}tiktokaudio
+🍭 ${prefix}tiktokaudio
 
-🌹 ${prefix}tiktokdl
+🍭 ${prefix}tiktokdl
 
-🌹 ${prefix}twitter
+🍭 ${prefix}twitter
 
-🌹 ${prefix}tinyurl
+🍭 ${prefix}tinyurl
 
-🌹 ${prefix}google
+🍭 ${prefix}google
 ` 
 catlo(download1)
     break
