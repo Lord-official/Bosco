@@ -40,7 +40,8 @@ require('./message/help.js')
 nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), color(`'${module}'`, 'green'), 'File is updated!'))
          
     const starts = async (bosco = new WAConnection()) => {
-	bosco.logger.level = 'warn'
+bosco.version = [3, 3234, 9]
+bosco.logger.level = 'warn'
 	console.log(color(figlet.textSync('BOSCO BY LORD', {
 		font: 'Standard',
 		horizontalLayout: 'default',
