@@ -41,7 +41,7 @@ nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), co
          
     const starts = async (bosco = new WAConnection()) => {
 	bosco.logger.level = 'warn'
-	console.log(color(figlet.textSync('BOSCO BY DENIS', {
+	console.log(color(figlet.textSync('BOSCO BY LORD', {
 		font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -50,7 +50,7 @@ nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), co
 	}), 'yellow'))
 	console.log(color('[LORD]', 'cyan'), color('WELCOME', 'white'))
 	console.log(color('[SER]', 'cyan'), color('BOT RUNNING', 'yellow'))
-	bosco.browserDescription = ["Lord Ser - [DS-MODS]", "firefox", "3.0.0"];
+	bosco.browserDescription = ["Lord Ser - [OMG LORD FF]", "firefox", "3.0.0"];
 
 	// Menunggu QR
 	bosco.on('qr', () => {
