@@ -252,15 +252,15 @@ module.exports = bosco = async (bosco, mek) => {
         
         if (antibot === true) return
 		const catl = (teks) => {
-             res = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 400, "message": teks, "footerText": "*Denis Ser*", "thumbnail": dfrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 400, "message": teks, "footerText": "*Lord Ser*", "thumbnail": dfrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              bosco.relayWAMessage(res)
         }
        const catlo = (teks) => {
-             res = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 70000, "message": teks, "footerText": "Made With Denis", thumbnail: fs.readFileSync('./ds.jpg'), "surface": 'CATALOG' }}, {quoted:mek})
+             res = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 70000, "message": teks, "footerText": "Made With Lord", thumbnail: fs.readFileSync('./ds.jpg'), "surface": 'CATALOG' }}, {quoted:mek})
              bosco.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = bosco.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Bosco Family`, "footerText": "*Denis Ser*", "jpegThumbnail": dfrply, "caption": teks}}, {quoted:fvideo})
+        	grup = bosco.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Bosco Family`, "footerText": "*Lord Ser*", "jpegThumbnail": dfrply, "caption": teks}}, {quoted:fvideo})
             bosco.relayWAMessage(grup)
         }
         try {
@@ -967,43 +967,24 @@ const ftrol = {
 
 
 🍭 ${prefix}clearall
-
 🍭 ${prefix}tobc
-
 🍭 ${prefix}bc
-
 🍭 ${prefix}getquoted
-
 🍭 ${prefix}restart
-
 🍭 ${prefix}term
-
 🍭 ${prefix}block
-
 🍭 ${prefix}unblock
-
 🍭 ${prefix}leaveall
-
 🍭 ${prefix}addcmd
-
 🍭 ${prefix}delcmd
-
 🍭 ${prefix}jadibot
-
 🍭 ${prefix}listjadibot
-
 🍭 ${prefix}stopjadibot
-
 🍭 ${prefix}exif
-
 🍭 ${prefix}join
-
 🍭 ${prefix}return
-
 🍭 ${prefix}public
-
 🍭 ${prefix}self
-
 🍭 ${prefix}readall
 `
 catlo(owner1)
@@ -1014,31 +995,18 @@ catlo(owner1)
  
 
 🍭 ${prefix}add
-
 🍭 ${prefix}kick
-
 🍭 ${prefix}promote
-
 🍭 ${prefix}demote
-
 🍭 ${prefix}disappear
-
 🍭 ${prefix}group
-
 🍭 ${prefix}antilink
-
 🍭 ${prefix}totag
-
 🍭 ${prefix}hidetag
-
 🍭 ${prefix}translate
-
 🍭 ${prefix}getdeskgc
-
 🍭 ${prefix}getbio
-
 🍭 ${prefix}getpp
-
 🍭 ${prefix}getname
 `
 catlo(group1)
@@ -1049,47 +1017,26 @@ catlo(group1)
 
 
 🍭 ${prefix}secvn
-
 🍭 ${prefix}secvideo
-
 🍭 ${prefix}tomp3
-
 🍭 ${prefix}tomp4
-
 🍭 ${prefix}toimg
-
 🍭 ${prefix}baby
-
 🍭 ${prefix}bass
-
 🍭 ${prefix}reverse
-
 🍭 ${prefix}slow
-
 🍭 ${prefix}squirrel
-
 🍭 ${prefix}blub
-
 🍭 ${prefix}fat
-
 🍭 ${prefix}imagetourl
-
 🍭 ${prefix}voice
-
 🍭 ${prefix}nightcore
-
 🍭 ${prefix}cm
-
 🍭 ${prefix}fast
-
 🍭 ${prefix}gemes
-
 🍭 ${prefix}slowvid
-
 🍭 ${prefix}fastvid
- 
 🍭 ${prefix}reversevid
-
 🍭 ${prefix}tts
 `
 catlo(edit1)
@@ -1100,27 +1047,16 @@ catlo(edit1)
 
 
 🍭 ${prefix}addvn
-
 🍭 ${prefix}addvideo
-
 🍭 ${prefix}addimage
-
 🍭 ${prefix}addsticker
-
 🍭 ${prefix}listvn
-
 🍭 ${prefix}listvideo
-
 🍭 ${prefix}listimage
-
 🍭 ${prefix}liststicker
-
 🍭 ${prefix}delvn
-
 🍭 ${prefix}delvideo
-
 🍭 ${prefix}delimage
-
 🍭 ${prefix}delsticker
 
 `
@@ -1132,15 +1068,10 @@ catlo(storage1)
 
 
 🍭 ${prefix}chat
-
 🍭 ${prefix}fitnahpc
-
 🍭 ${prefix}contact
-
 🍭 ${prefix}forward
-
 🍭 ${prefix}forwardvideo
-
 🍭 ${prefix}forwardaudio
 `
  catlo(extra1)
@@ -1150,47 +1081,26 @@ catlo(storage1)
 🔮 𝑫 𝑶 𝑾 𝑵 𝑳 𝑶 𝑨 𝑫 - 𝑴 𝑬 𝑵 𝑼 🔮 
 
 🍭 ${prefix}play
-
 🍭 ${prefix}ytmp3
-
 🍭 ${prefix}ytmp4
-
 🍭 ${prefix}igdl
-
 🍭 ${prefix}ytsearch
-
 🍭 ${prefix}igstory
-
 🍭 ${prefix}scplay
-
 🍭 ${prefix}pinterest
-
 🍭 ${prefix}telesticker
-
 🍭 ${prefix}githubsearch
-
 🍭 ${prefix}googleimage
-
 🍭 ${prefix}ytdesk
-
 🍭 ${prefix}lyric
-
 🍭 ${prefix}playstore
-
 🍭 ${prefix}mediafire
-
 🍭 ${prefix}fb
-
 🍭 ${prefix}tiktoknown
-
 🍭 ${prefix}tiktokaudio
-
 🍭 ${prefix}tiktokdl
-
 🍭 ${prefix}twitter
-
 🍭 ${prefix}tinyurl
-
 🍭 ${prefix}google
 ` 
 catlo(download1)
@@ -1201,15 +1111,11 @@ catlo(download1)
            rules1 = `
 -----[ 𝑹 𝑼 𝑳 𝑬 𝑺 ]-----
 
-1. 𝙳𝙾𝙽𝚃 𝙲𝙰𝙻𝙻 𝙱𝙾𝚃
-
-2. 𝙳𝙾𝙽𝚃 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃
-
-3. 𝙳𝙾𝙽𝚃 𝙿𝙼 𝙱𝙾𝚃
-
-4. 𝙳𝙾𝙽𝚃 𝙼𝙸𝚂𝚄𝚂𝙴 𝚃𝙷𝙴 𝙱𝙾𝚃
-
-5. 𝙰𝙽𝚈 𝙿𝚁𝙾𝙱𝙻𝙰𝙼 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙾𝚄𝚁 𝙾𝚆𝙽𝙴𝚁
+𒈒. 𝙳𝙾𝙽𝚃 𝙲𝙰𝙻𝙻 𝙱𝙾𝚃
+𒈒. 𝙳𝙾𝙽𝚃 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃
+𒈒. 𝙳𝙾𝙽𝚃 𝙿𝙼 𝙱𝙾𝚃
+𒈒. 𝙳𝙾𝙽𝚃 𝙼𝙸𝚂𝚄𝚂𝙴 𝚃𝙷𝙴 𝙱𝙾𝚃
+𒈒. 𝙰𝙽𝚈 𝙿𝚁𝙾𝙱𝙻𝙰𝙼 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙾𝚄𝚁 𝙾𝚆𝙽𝙴𝚁
 wa.me/${owner}`
        osk = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${rules1}`, "footerText": "hehe", "thumbnail": denis, "surface": 'CATALOG'}}, {quoted: mek})
             bosco.relayWAMessage(osk)
