@@ -44,8 +44,8 @@
     "spinnies": "^0.5.1",
     "twitter-url-direct": "^1.0.1",
     "tiktok-scraper-without-watermark": "^1.0.6",
-    "util": "^0.12.4",
-    "yt-search": "^2.8.0"
+    "util": "^0.12.4"
+    
   },
   "repository": {
     "type": "git",
