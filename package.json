@@ -16,7 +16,7 @@
     "@vitalets/google-translate-api": "^8.0.0",
     "axios": "^0.27.0",
     "cfonts": "^3.0.0",
-    "chalk": "^4.1.1",
+    "chalk": "^5.0.0",
     "figlet": "^1.5.0",
     "file-type": "^16.5.2",
     "base64-img": "^1.0.4",
