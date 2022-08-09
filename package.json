@@ -12,7 +12,7 @@
   },
   "author": "Denis",
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.2",
+    "@adiwajshing/baileys": "^4.0.0",
     "@vitalets/google-translate-api": "^7.0.0",
     "axios": "^0.21.1",
     "cfonts": "^2.9.0",
