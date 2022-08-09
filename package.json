@@ -23,7 +23,7 @@
     "base64-to-image": "^1.0.2",
     "brainly-scraper": "^1.0.3",
     "fluent-ffmpeg": "^2.1.2",
-    "emoji-api": "^1.0.2",
+    "emoji-api": "^2.0.0",
     "form-data": "^4.0.0",
     "fs-extra": "^10.0.0",
     "fake-useragent": "^1.0.1",
