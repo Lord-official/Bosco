@@ -38,7 +38,7 @@
     "node-fetch": "^3.0.0",
     "mathjs": "^11.0.0",
     "os": "^0.1.2",
-    "parse-ms": "^3.0.0",
+    "parse-ms": "^4.0.0",
     "qrcode": "^1.4.4",
     "request": "^2.88.2",
     "spinnies": "^0.5.1",
